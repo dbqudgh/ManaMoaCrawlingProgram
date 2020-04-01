@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>마나모아 다운로더</title>
+    <link rel='stylesheet' type="text/css" media="screen" href="main.css">
+  </head>
+  <body>
+    <!-- <div id="logger" style="overflow: auto; overflow-x: hidden; height: 500px;"></div> -->
+    <div class="login">
+      <h1>마나모아 다운로더</h1>
+        <form method="post">
+          <input type="text" class="url" placeholder="url" required="required" />
+          <input type="file" class="path" placeholder="path" required="required" webkitdirectory/>
+          <button type="submit" class="button btn btn-primary btn-block btn-large">다운로드</button>
+        </form>
+        </br>
+      <form method="POST">
+        <input type="text" class="serch" placeholder="제목으로 검색" required="required"/>
+        <button type="submit" class="serchButton btn btn-primary btn-block btn-large">검색</button>
+      </br> 
+          <div class="currentStatus" style="color:white">
+          </div>
+        </div>
+        <div class ="list">
+        </div>
+        <div class="faild">
+        </div>
+        </form>
+
+	<script>
+require('./babel-output/index.js');
+require('./babel-output/lib/file-paths.js');
+require('./babel-output/lib/logger.js');
+require('./babel-output/lib/puppeteer-wrapper.js');
+</script>
+  </body>
+</html>
