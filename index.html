@@ -7,16 +7,29 @@
   </head>
   <body>
     <!-- <div id="logger" style="overflow: auto; overflow-x: hidden; height: 500px;"></div> -->
-    <div class="login">
-      <h1>마나모아 다운로더</h1>
+    <form class="selectList block">
+      <button class="allSelect">전체 선택</button> <button class="Sdown">다운로드</button> <button class="esc">취소</button>
+    </br>
+
+      <div class="selectListDiv">
+      </div>
+    </form>
+    
+    <div class="login ">
         <form method="post">
           <input type="text" class="url" placeholder="url" required="required" />
           <input type="file" class="path" placeholder="path" required="required" webkitdirectory/>
-          <button type="submit" class="button btn btn-primary btn-block btn-large">다운로드</button>
+          
+          <button type="submit" class="button btn btn-primary btn-block btn-large">전부 다운로드</button>
+        </br>
+          <button type="button" class="selectDownButton btn btn-primary btn-block btn-large">선택 다운로드</button>
         </form>
+
         </br>
       <form method="POST">
+
         <input type="text" class="serch" placeholder="제목으로 검색" required="required"/>
+
         <button type="submit" class="serchButton btn btn-primary btn-block btn-large">검색</button>
       </br> 
           <div class="currentStatus" style="color:white">
