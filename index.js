@@ -31,7 +31,7 @@ const button6 = document.querySelector('.esc');
 
 const baseStatus = `..로드중.. 프로그램을 종료하지마세요!`
 const serachingStatus = `..검색중.. 프로그램을 종료하지마세요!`
-const serchBaseUrl = "https://manamoa32.net/bbs/search.php?url=https%3A%2F%2Fmanamoa32.net%2Fbbs%2Fsearch.php&sfl=0&stx=";
+const serchBaseUrl = "https://manamoa33.net/bbs/search.php?url=https%3A%2F%2Fmanamoa33.net%2Fbbs%2Fsearch.php&sfl=0&stx=";
 
 
 //button Listener------------------------------------------------------------------------
@@ -146,6 +146,7 @@ button6.addEventListener('click',(e)=>{
 
     while(selectListDiv.hasChildNodes()){
         divList.removeChild(divList.firstChild);
+        
     }
 
 })
