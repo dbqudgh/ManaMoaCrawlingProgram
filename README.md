@@ -43,5 +43,3 @@ https://drive.google.com/open?id=1ORAJj6nw64oa81k5GmqpYGGu2Xtd396f
 
 
 
-
-(난 왤캐 코딩을 못할까;;)
