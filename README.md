@@ -28,8 +28,6 @@ C : \ Program Files (x86) \ Google \ Chrome \ Application \ chrome.exe
 mac사용자 --
 / Applications / Google Chrome.app/Contents/MacOS/Google Chrome
 
-아무튼간 써볼사람써보고..... 내가 필요해서 만든건데 아무튼 공유하겠다
-
 window 사용자 다운로드:
 https://drive.google.com/open?id=1ORAJj6nw64oa81k5GmqpYGGu2Xtd396f
 
