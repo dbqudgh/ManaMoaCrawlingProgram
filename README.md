@@ -1,6 +1,8 @@
 # dbqudgh
 ![깃헙 크롤링프로그램](https://user-images.githubusercontent.com/60841247/81771186-4a381100-951d-11ea-8e4a-35ab4712631a.PNG)
 
+window 사용자 다운로드:
+https://drive.google.com/open?id=1ORAJj6nw64oa81k5GmqpYGGu2Xtd396f
 
 
 프로글램 기능 설명
@@ -21,15 +23,13 @@ electron 으로 만화 사이트 크롤링해서 다운받는 프로그램을 �
 그리고 크롤러 프로그램이다보니 그 사이트가 한번 바뀌면 안될지도 모른다. 그걸 다 해결했다고는 생각하는데 안될수도있고..뭐 아무튼 
 코드는 생각나는대로 업데이트할거고 조금더 업그레이드 를 해줄거다
 
-그리고 크롬이 이 경로로 깔ㄹ려있지 않으면 안될지도 모른답 윈도우 --
+그리고 크롬이 이 경로로 깔ㄹ려있지 않으면 안될지도 모른다 윈도우 --
 C : \ Program Files (x86) \ Google \ Chrome \ Application \ chrome.exe
 
 
 mac사용자 --
 / Applications / Google Chrome.app/Contents/MacOS/Google Chrome
 
-window 사용자 다운로드:
-https://drive.google.com/open?id=1ORAJj6nw64oa81k5GmqpYGGu2Xtd396f
 
 
 
